@@ -7,7 +7,6 @@ let generatedWord = "";
 window.onload = function excuseGenerator() {
   for (let i = 0; i < excuse.length; i++) {
     let randomNumber = Math.floor(Math.random() * excuse[i].length);
-    console.log(randomNumber)
     for (let index = 0; index < 1; index++) {
       generatedWord = generatedWord + " " + excuse[i][randomNumber];
     }
